@@ -30,6 +30,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Navigation bar & logo container */
 .nav-container {
     position: fixed;
     top: 0;
@@ -40,6 +41,7 @@ body {
     height: 85px;
 }
 
+/* Logo container */
 .nav-logo-container {
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -51,7 +53,7 @@ body {
     padding: 0 35px;
 }
 
-
+/* navigation bar (main menu) container */
 .nav-menu-container {
     float:right;
     line-height: 85px;
@@ -60,7 +62,6 @@ body {
 
 .nav-menu-container ul {
     list-style: none;
-
 }
 
 .nav-menu-container ul li {
@@ -76,6 +77,8 @@ body {
     text-shadow: 1px 1px 4px #fff;
     padding: 0 30px;
 }
+
+/* main image and mantra container */
 .section-img-container {
     position: fixed;
     top: 85px;
@@ -88,6 +91,7 @@ body {
     background-size: cover;
 }
 
+/* main image container */
 .section-img-text-container {
    display: block;
    margin: auto;
@@ -95,6 +99,7 @@ body {
    padding: 0;
 }
 
+/* mantra container */
 .section-img-text-container h1 {
     text-align: center;
     color: #fff;
@@ -115,6 +120,7 @@ body {
     text-shadow: 1px 1px 1px #000;
 }
 
+/* Signin form container */
 .section-signin-continer {
     display: block;
     border: 1px solid #111;
