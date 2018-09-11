@@ -1,3 +1,4 @@
+/* css master reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -112,4 +113,45 @@ body {
     padding: 20px 0;
     font-weight: lighter;
     text-shadow: 1px 1px 1px #000;
+}
+
+.section-signin-continer {
+    display: block;
+    border: 1px solid #111;
+    border-radius: 3px;
+    padding: 2em;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+
+.section-signin-continer h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #111;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section-signin-continer input {
+    display: block;
+    width: 320px;
+    height: 40px;
+    outline: none;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #111;
+    border-radius: 3px;
+}
+
+.section-signin-continer button {
+    width: 332px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: lighter;
 }
